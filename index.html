@@ -107,6 +107,37 @@
       border-bottom: 40px solid #fbbf24;
       bottom: 10%; left: 10%;
     }
+
+    .about {
+      padding: 4rem 2rem;
+      text-align: center;
+      background: #ffffffaa;
+    }
+
+    .about h2 {
+      font-size: 2rem;
+      color: #14532d;
+    }
+
+    .about p {
+      max-width: 700px;
+      margin: auto;
+      color: #334155;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    footer {
+      background: #1e3a8a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    footer a {
+      color: #bbf7d0;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
@@ -114,11 +145,11 @@
   <header>
     <div class="logo">Kongo <span>Cultural Legacy</span> <span style="color:red;">•</span></div>
     <nav>
-      <a href="#">About</a>
-      <a href="#">Culture</a>
-      <a href="#">Art</a>
-      <a href="#">Traditions</a>
-      <a href="#">Contact</a>
+      <a href="#about">About</a>
+      <a href="#culture">Culture</a>
+      <a href="#art">Art</a>
+      <a href="#traditions">Traditions</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
@@ -126,8 +157,8 @@
     <h1>Discover the Vibrant Heritage of Kongo Culture!</h1>
     <p>Explore the colorful traditions, art, spirituality, and history of the Kongo people of Central Africa.</p>
     <div class="buttons">
-      <a href="#" class="explore">Start Exploring!</a>
-      <a href="#" class="art">See the Art</a>
+      <a href="#culture" class="explore">Start Exploring!</a>
+      <a href="#art" class="art">See the Art</a>
     </div>
 
     <!-- Decorative shapes -->
@@ -136,6 +167,16 @@
     <div class="shape dot"></div>
     <div class="shape triangle"></div>
   </section>
+
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>My name is Honoree Koumba, and I founded the Kongo Cultural Legacy to preserve, educate, and celebrate the powerful heritage of the Kongo people. With support from global institutions, this initiative revives history through digital archives, educational events, and public storytelling.</p>
+  </section>
+
+  <footer id="contact">
+    <p>Contact me: <a href="mailto:honoreekoumba@gmail.com">honoreekoumba@gmail.com</a></p>
+    <p>&copy; 2025 Kongo Cultural Legacy</p>
+  </footer>
 
 </body>
 </html>
