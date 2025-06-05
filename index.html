@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kongo Cultural Legacy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Nunito', sans-serif;
+      background: linear-gradient(to bottom right, #f0fdf4, #e0f2fe);
+      overflow-x: hidden;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.2rem 2rem;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .logo {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: #66bb6a;
+    }
+
+    .logo span {
+      color: #42a5f5;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+    }
+
+    .hero {
+      padding: 4rem 2rem;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: #1e293b;
+    }
+
+    .hero p {
+      font-size: 1rem;
+      color: #4b5563;
+      max-width: 600px;
+      margin: 1rem auto 2rem;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .buttons a {
+      padding: 0.8rem 1.4rem;
+      border-radius: 10px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+
+    .explore {
+      background: #4ade80;
+      color: white;
+    }
+
+    .explore:hover {
+      background: #22c55e;
+    }
+
+    .art {
+      background: white;
+      border: 2px solid #cbd5e1;
+      color: #334155;
+    }
+
+    .art:hover {
+      background: #f8fafc;
+    }
+
+    .shape {
+      position: absolute;
+      opacity: 0.4;
+      z-index: -1;
+    }
+
+    .shape.circle { border-radius: 50%; background: #86efac; width: 50px; height: 50px; top: 10%; right: 10%; }
+    .shape.square { background: #facc15; width: 40px; height: 40px; bottom: 20%; right: 20%; transform: rotate(20deg);}
+    .shape.dot { background: #818cf8; width: 25px; height: 25px; top: 50%; left: 20%; border-radius: 50%; }
+    .shape.triangle {
+      width: 0; height: 0;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      border-bottom: 40px solid #fbbf24;
+      bottom: 10%; left: 10%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Kongo <span>Cultural Legacy</span> <span style="color:red;">•</span></div>
+    <nav>
+      <a href="#">About</a>
+      <a href="#">Culture</a>
+      <a href="#">Art</a>
+      <a href="#">Traditions</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Discover the Vibrant Heritage of Kongo Culture!</h1>
+    <p>Explore the colorful traditions, art, spirituality, and history of the Kongo people of Central Africa.</p>
+    <div class="buttons">
+      <a href="#" class="explore">Start Exploring!</a>
+      <a href="#" class="art">See the Art</a>
+    </div>
+
+    <!-- Decorative shapes -->
+    <div class="shape circle"></div>
+    <div class="shape square"></div>
+    <div class="shape dot"></div>
+    <div class="shape triangle"></div>
+  </section>
+
+</body>
+</html>
